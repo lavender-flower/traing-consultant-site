@@ -6,7 +6,7 @@ const Home = () => {
     <nav class="navbar">
         <div class="container-nav">
             <div class="logo" ><img src='./images/logo.png'></img></div>
-            <ul class="nav-links">
+            <ul class="nav-links d-none">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Study Abroad</a></li>
@@ -29,8 +29,8 @@ const Home = () => {
     </section>
     <section class="about-us">
     <div class="about-container">
-    <div class="about-image">
-            <img src='./images/2.png' />
+    <div class="about-image d-none">
+            <img  src='./images/2.png' />
         </div>
         <div class="about-text">
             <p>ABOUT US</p>
@@ -56,7 +56,7 @@ const Home = () => {
     </div>
 </section>
 
-<section class="image-banner">
+<section class="image-banner d-none">
     <div class="overlay">
         <div class="text-box">
             <div>
@@ -85,7 +85,7 @@ const Home = () => {
 <section>
     <div class="choose-container">
     <div >
-            <img  src='./images/4.png' />
+            <img className='d-none' src='./images/4.png' />
         </div>
         <div className='c-text'>
         <div class="choose-text">
@@ -101,7 +101,7 @@ const Home = () => {
 </section>
 
 <section class="form-section">
-    <div className='for-txt'>
+    <div className='for-txt d-none'>
         <h2>Get In Touch</h2>
         <h3>Feel Free To Send Us Message How Can We <br/>Help You.</h3>
         <img width='400vw' src='./images/5.jpg'></img><br/>
@@ -136,17 +136,17 @@ const Home = () => {
         </div>
         <div class="contact-details">
             <h2>Contact</h2>
-            <p>Address: 123 Learning Street, Knowledge City, 45678</p>
-            <p>Phone: +1 234 567 890</p>
-            <p>Email: info@learningplatform.com</p>
+            <p> 123 Learning Street, Knowledge City, 45678</p>
+            <p> +1 234 567 890</p>
+            <p> info@learningplatform.com</p>
         </div>
-        <div class="contact-details">
+        <div class="contact-details d-none">
             <h2>Services</h2>
             <p>Work abroad</p>
             <p>Study Abroad</p>
             <p>Visa Processing</p>
         </div>
-        <div class="social-media">
+        <div class="social-media d-none">
             <h2>Socials</h2>
        <img src='./images/social.jpg' width='100vw'></img>
         </div>

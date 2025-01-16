@@ -403,4 +403,14 @@ body {
 .for-txt img{
     border-radius: 8px;
 }
-
+/* Mobile View CSS for Navigation and Hero Section */
+@media (max-width: 768px) {
+    .d-none{
+        display: none;
+    }
+    .overlay .text-box {
+        
+    
+        margin: 10px;
+    }
+}
